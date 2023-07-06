@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue ;
+    position: relative;
+}
+
+#quiz{
+    text-align: center;
+}
+
+.main{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.ques{
+    margin: 10%;
+    text-align: center;
+    
+}
+#btn{
+    display: inline-block;
+    /* margin-left: 20px; */
+    margin: 20px;
+    padding: 15px 20px; 
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: lightblue;
+}
+.option{
+ text-align: center;
+}
+.marks{
+position: absolute;
+top: 50%;
+left: 40%;
+display: none;
+
+}
